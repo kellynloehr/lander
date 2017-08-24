@@ -432,10 +432,13 @@ ul.navbar-right li{
       margin:0 auto;
     }
     .background-header, .background-header-light{
-      font-size: 7em;
-      line-height: 1em;
-
-
+      font-size: 8em;
+      line-height: 0.8em;
+    }
+    .funding{
+      font-size: 6.5em;
+      line-height: 2em;
+      margin-left:-30px;
     }
 }
 
