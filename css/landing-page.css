@@ -1,0 +1,461 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ @font-face{
+     font-family:"NeuzeitGroLig W01 Regular";
+     src:url("fonts/1487160/5f87b7b5-0307-4b40-b92d-d391a873f533.eot?#iefix");
+     src:url("fonts/1487160/5f87b7b5-0307-4b40-b92d-d391a873f533.eot?#iefix") format("eot"),url("Fonts/1487160/ec5f52c3-7edd-49af-ab40-1a6542fa8028.woff2") format("woff2"),url("Fonts/1487160/6fac8ddf-714b-44eb-bf8c-ebc54132ed3a.woff") format("woff"),url("Fonts/1487160/4151e65d-0847-4162-a4aa-2f78d92c7898.ttf") format("truetype");
+ }
+ @font-face{
+     font-family:"Neuzeit Grotesk W01 Reg1487164";
+     src:url("fonts/1487164/76cc538f-bd82-4bd9-a19c-d28eb529ad11.eot?#iefix");
+     src:url("fonts/1487164/76cc538f-bd82-4bd9-a19c-d28eb529ad11.eot?#iefix") format("eot"),url("Fonts/1487164/d33f718f-1aa2-43db-ad60-7d79aa87de0a.woff2") format("woff2"),url("Fonts/1487164/2d76f703-cb26-46a0-954a-53cc641b9b3b.woff") format("woff"),url("Fonts/1487164/3b12e571-5103-4d94-9ba8-2dc8e8ff6550.ttf") format("truetype");
+ }
+ @font-face{
+     font-family:"NeuzeitGro W01 Bold";
+     src:url("fonts/1487168/66182542-0bb8-41e7-94b8-f45d24bea18d.eot?#iefix");
+     src:url("fonts/1487168/66182542-0bb8-41e7-94b8-f45d24bea18d.eot?#iefix") format("eot"),url("Fonts/1487168/8dfba670-079e-4879-8b0a-8d079ab7c067.woff2") format("woff2"),url("Fonts/1487168/218401dc-d400-4482-8c9b-0527059f7559.woff") format("woff"),url("Fonts/1487168/ace900f9-272b-4efa-88b0-6f2b1adc0f41.ttf") format("truetype");
+ }
+ @font-face{
+     font-family:"NeuzeitGroBla W01 Regular";
+     src:url("fonts/1487172/c7246e95-14ee-45e9-90fe-6a6e32e61bb4.eot?#iefix");
+     src:url("fonts/1487172/c7246e95-14ee-45e9-90fe-6a6e32e61bb4.eot?#iefix") format("eot"),url("Fonts/1487172/9f84af91-b2b1-4040-bdd7-a194f0ba97ed.woff2") format("woff2"),url("Fonts/1487172/b3d12495-7541-496c-9700-46c7d472b62c.woff") format("woff"),url("Fonts/1487172/dd392f52-fd0c-4daf-be88-4c494d8b9870.ttf") format("truetype");
+ }
+ @font-face{
+     font-family:"Neuzeit Grotesk Cond W01487176";
+     src:url("fonts/1487176/aa788fe2-5662-4978-9629-f12fa4329c00.eot?#iefix");
+     src:url("fonts/1487176/aa788fe2-5662-4978-9629-f12fa4329c00.eot?#iefix") format("eot"),url("Fonts/1487176/b01cfb6c-0ff3-43ca-b213-d379de58b8f1.woff2") format("woff2"),url("Fonts/1487176/29b23452-233a-440c-be44-8052271cc8df.woff") format("woff"),url("Fonts/1487176/4b5e6137-d1da-4179-ab69-23f3b502219a.ttf") format("truetype");
+ }
+ @font-face{
+     font-family:"Neuzeit Grotesk ExtCond1487180";
+     src:url("fonts/1487180/5adeda5a-83ae-4ec2-9d1d-eb1874526fa7.eot?#iefix");
+     src:url("fonts/1487180/5adeda5a-83ae-4ec2-9d1d-eb1874526fa7.eot?#iefix") format("eot"),url("Fonts/1487180/68eedc51-482e-4272-a9ec-b865aefc69d3.woff2") format("woff2"),url("Fonts/1487180/c9509a54-bdfb-4d7a-8d7d-f549b17ef1c9.woff") format("woff"),url("Fonts/1487180/7bdce1e8-3430-4363-ad55-9c123878deba.ttf") format("truetype");
+ }
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Neuzeit Grotesk W01 Reg1487164","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.clearfix{
+  clear:both;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: none!important;
+}
+.navbar-default
+.navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+  background:none;
+}
+.list-inline img{
+  height:60px;
+  margin:0px 50px;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 24px;
+  color:#787D7D;
+  font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+hr {
+  border:0;
+  margin:0;
+}
+hr.yellow{
+    border-bottom: 3px solid #FDE13C;
+    width:17%;
+    margin:-89px auto 92px;
+    z-index: 1;
+    position:inherit;
+}
+.bottom {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  background-color: #2B67DB;
+  border-radius: 50%;
+  margin-left: 0em;
+}
+
+.bottom:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-top: 0.2em solid #FFF;
+  border-right: 0.2em solid #FFF;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.outer {
+  width: 3px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  position: absolute;
+  width:100%;
+  height: 100%;
+  background: #2B67DB;
+
+}
+.center{
+  text-align: center;
+}
+.list-inline img{
+  margin:0 30px ;
+}
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    text-align: center;
+    color: #222528;
+    /*background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;*/
+}
+
+.navbar{
+    background-color:#fff;
+    height:60px;
+    border:none;
+}
+
+.navbar .logo{
+  height:37px;
+  margin-top:0px;
+}
+
+ul.navbar-right li{
+    padding-top:10px;
+    background:none;
+}
+.navbar-default .navbar-nav>.active>a{
+  background:none;
+}
+.btn-lg{
+  font-family: "NeuzeitGro W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  padding:12px 30px;
+  border-radius: 2px;
+  border: 2px solid #2B67DB;
+  color: #2B67DB;
+  background-color:transparent;
+
+}
+.btn-lg:hover{
+  background:none;
+  color: #2B67DB;
+}
+.intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom:4%;
+    width:75%;
+    margin:0 auto;
+    z-index: 1;
+    position:inherit;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: "NeuzeitGro W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.intro-message > h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color:#787D7D;
+    font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top:10%;
+    padding-bottom:10%;
+    width:80%;
+    margin:0 auto;
+}
+.about-message > p {
+    font-size: 18px;
+    line-height: 24px;
+    color:#787D7D;
+    font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width:80%;
+    margin:70px auto;
+}
+.about-message-light > p {
+    font-size: 18px;
+    line-height: 30px;
+    color:#E6E6E6;
+    font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width:80%;
+    margin:70px auto 20px;
+    font-weight: 100;
+    padding-bottom:0px;
+}
+
+.background-header{
+  font-family: "NeuzeitGro W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 8em;
+  text-align: center;
+  color:#F7F7F7;
+  z-index: -1000;
+  position:inherit;
+  padding:30px;
+}
+.background-header h2{
+  font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color:#222528;
+  margin-top:-95px;
+  margin-bottom:95px;
+}
+.background-header-light{
+  font-family: "NeuzeitGro W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 8em;
+  padding-top:50px;
+  margin-bottom:50px;
+  text-align: center;
+  color:#2C3034;
+  z-index: -1000;
+  position:inherit;
+
+}
+.background-header-light h2{
+  font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color:#FFF;
+  margin-top:-95px;
+  margin-bottom:95px;
+
+}
+.dark-bg{
+  width:100%;
+  background-color: #222528;
+  position: relative;
+  z-index:100;
+  padding:150px 0 250px;
+  -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+ clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.left-side-element{
+  background: url(../img/crane.png) no-repeat ;
+  width:300px;
+  height:700px;
+  background-size: contain;
+  position:absolute;
+  z-index: -100;
+  top:300px;
+  left:0px;
+
+}
+.left-side-element-small{
+  background: url(../img/house.png) no-repeat ;
+  width:300px;
+  height:450px;
+  background-size: contain;
+  position:absolute;
+  z-index: -100;
+  top:600px;
+  left:0px;
+
+}
+.right-side-element{
+  background: url(../img/tractor.png) no-repeat ;
+  width:400px;
+  height:500px;
+  background-size: contain;
+  position:absolute;
+  z-index: -100;
+  top:600px;
+  right:0px;
+
+
+}
+.side-mark{
+  background: url(../img/large-o.png) no-repeat ;
+  width:400px;
+  height:1500px;
+  background-size: contain;
+  position:inherit;
+  z-index: -1000;
+  margin-top:-1300px;
+
+}
+
+.img-responsive{
+  max-width:90%;
+}
+.content-section-a {
+    padding: 50px 0;
+
+}
+
+.content-section-b {
+    padding: 50px 0;
+
+}
+
+.section-heading {
+    margin-bottom: 20px;
+    font-family: "NeuzeitGro W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 8%;
+    border-top: 3px solid #FDE13C;
+    margin-top:-3px;
+
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    .left-side-element{
+      display: none;
+
+    }
+    .left-side-element-small{
+        display: none;
+
+    }
+    .right-side-element{
+      display: none;
+    }
+    .side-mark{
+      display: none;
+    }
+    .list-inline img{
+      margin:0 auto;
+    }
+}
+
+.investors {
+    background-color: #FFF;
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+   margin-top:-140px;
+   padding-bottom:50px;
+   padding-top:180px;
+   position: relative;
+   z-index: 100;
+}
+
+footer {
+    color:#fff;
+
+    background-color: #2B67DB;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+   margin-top:-50px;
+   padding: 100px 0;
+   position: relative;
+   z-index: 1000;
+}
+footer img{
+  margin:80px 0 30px;
+}
+p.copyright {
+    margin: 15px 0 0;
+    color:#fff;
+}
