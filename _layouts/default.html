@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-	{% assign base = '' %}
-	{% assign depth = page.url | split: '/' | size | minus: 1 %}
-	{% if    depth <= 1 %}{% assign base = '.' %}
-	{% elsif depth == 2 %}{% assign base = '..' %}
-	{% elsif depth == 3 %}{% assign base = '../..' %}
-	{% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
+	{% include base.html %}
 	<body>
 		{% include header.html %}
 		{% include about.html %}
