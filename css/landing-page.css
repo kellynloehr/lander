@@ -432,8 +432,8 @@ ul.navbar-right li{
       margin:0 auto;
     }
     .background-header, .background-header-light{
-
-      line-height: 0.8em;
+      font-size: 7em;
+      line-height: 1em;
 
 
     }
