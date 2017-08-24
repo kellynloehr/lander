@@ -65,6 +65,9 @@ h6 {
 .navbar-default .navbar-nav>.active>a:focus{
   background:none;
 }
+.navbar-toggle{
+  display: none;
+}
 .list-inline img{
   height:60px;
   margin:0px 50px;
@@ -427,6 +430,12 @@ ul.navbar-right li{
     }
     .list-inline img{
       margin:0 auto;
+    }
+    .background-header, .background-header-light{
+
+      line-height: 0.8em;
+
+
     }
 }
 
