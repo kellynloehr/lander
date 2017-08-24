@@ -415,18 +415,19 @@ ul.navbar-right li{
         margin-bottom: 0;
     }
     .left-side-element{
-      display: none;
-
+      margin-top:-200px;
+      margin-left: -100px;
     }
     .left-side-element-small{
-        display: none;
+      margin-top:400px;
 
     }
     .right-side-element{
-      display: none;
+      margin-top:200px;
+      margin-left: -100px;
     }
     .side-mark{
-      display: none;
+    display: none;
     }
     .list-inline img{
       margin:60px auto;
