@@ -70,7 +70,7 @@ h6 {
 }
 .list-inline img{
   height:60px;
-  margin:0px 50px;
+
 }
 
 .lead {
@@ -86,7 +86,7 @@ hr {
   margin:0;
 }
 hr.yellow{
-    border-bottom: 3px solid #FDE13C;
+    border-bottom: 3px solid #2B67DB;
     width:17%;
     margin:-89px auto 92px;
     z-index: 1;
@@ -131,7 +131,7 @@ hr.yellow{
   text-align: center;
 }
 .list-inline img{
-  margin:0 30px ;
+  margin:30px 30px ;
 }
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -224,7 +224,7 @@ ul.navbar-right li{
   font-family: "NeuzeitGro W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 8em;
   text-align: center;
-  color:#F7F7F7;
+  color:#F0EEEE;
   z-index: -1000;
   position:inherit;
   padding:30px;
@@ -279,7 +279,7 @@ ul.navbar-right li{
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
-        padding: 0;
+        padding:0px;
     }
 
     ul.intro-social-buttons > li:last-child {
@@ -309,13 +309,13 @@ ul.navbar-right li{
 
 }
 .left-side-element-small{
-  background: url(../img/house.png) no-repeat ;
-  width:300px;
-  height:450px;
+  background: url(../img/landscape.png) no-repeat ;
+  width:500px;
+  height:550px;
   background-size: contain;
   position:absolute;
   z-index: -100;
-  top:600px;
+  top:660px;
   left:0px;
 
 }
@@ -333,12 +333,13 @@ ul.navbar-right li{
 }
 .side-mark{
   background: url(../img/large-o.png) no-repeat ;
-  width:400px;
-  height:1500px;
+  width:503px;
+  height:1354px;
   background-size: contain;
   position:inherit;
   z-index: -1000;
   margin-top:-1300px;
+
 
 }
 
@@ -363,7 +364,7 @@ ul.navbar-right li{
 .section-heading-spacer {
     float: left;
     width: 8%;
-    border-top: 3px solid #FDE13C;
+    border-top: 3px solid #2B67DB;
     margin-top:-3px;
 
 }
@@ -419,7 +420,8 @@ ul.navbar-right li{
       margin-left: -100px;
     }
     .left-side-element-small{
-      margin-top:400px;
+      margin-top:140px;
+      width:400px;
 
     }
     .right-side-element{
@@ -441,6 +443,9 @@ ul.navbar-right li{
       line-height: 1.8em;
       margin-left:-30px;
     }
+    .about{
+      margin-left:-20px;
+    }
 }
 
 .investors {
@@ -448,7 +453,7 @@ ul.navbar-right li{
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
    margin-top:-140px;
-   padding-bottom:50px;
+   padding-bottom:100px;
    padding-top:180px;
    position: relative;
    z-index: 100;
@@ -465,8 +470,17 @@ footer {
    position: relative;
    z-index: 1000;
 }
+.copyright.text-muted.small{
+  font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+
+}
 footer img{
   margin:80px 0 30px;
+  width:44px;
 }
 p.copyright {
     margin: 15px 0 0;
