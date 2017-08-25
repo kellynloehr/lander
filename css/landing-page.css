@@ -299,7 +299,7 @@ ul.navbar-right li{
 }
 .left-side-element{
   background: url(../img/crane.png) no-repeat ;
-  width:300px;
+  width:320px;
   height:700px;
   background-size: contain;
   position:absolute;
@@ -315,7 +315,7 @@ ul.navbar-right li{
   background-size: contain;
   position:absolute;
   z-index: -100;
-  top:660px;
+  top:620px;
   left:0px;
 
 }
