@@ -174,6 +174,22 @@ ul.navbar-right li{
   background:none;
   color: #2B67DB;
 }
+.btn-lg-light{
+  font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  padding:12px 30px;
+  border-radius: 2px;
+  border: 2px solid #FFF;
+  color: #FFF;
+  letter-spacing: 1px;
+  background-color:transparent;
+}
+.btn-lg-light:hover{
+  background:none;
+  color: #2D3135;
+  border: 2px solid #2D3135;
+  letter-spacing: 1px;
+}
 .intro-message {
     position: relative;
     padding-top: 15%;
@@ -470,6 +486,8 @@ footer {
    position: relative;
    z-index: 1000;
 }
+
+
 #mc_embed_signup_scroll{
   font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
   letter-spacing: 1px;
@@ -481,6 +499,27 @@ footer {
     font-weight: 100 !important;
     text-align: center;
 
+}
+#mc_embed_signup .mc-field-group input{
+  color: #2D3135;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-indent: 2%;
+    border:none;
+    border-radius: 2px;
+    height:40px;
+
+}
+
+#mc_embed_signup #mce-success-response {
+    color: #FFF;
+    text-align: center;
+
+  }
+.form {
+  width: 60%;
+  margin: 0 auto;
 }
 .copyright.text-muted.small{
   font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
