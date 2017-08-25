@@ -466,9 +466,21 @@ footer {
     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
    margin-top:-50px;
-   padding: 100px 0;
+   padding: 250px 0 100px 0;
    position: relative;
    z-index: 1000;
+}
+#mc_embed_signup_scroll{
+  font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
+}
+#mc_embed_signup h2{
+    font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.7em!important;
+    letter-spacing: 1px;
+    font-weight: 100 !important;
+    text-align: center;
+
 }
 .copyright.text-muted.small{
   font-family: "NeuzeitGroLig W01 Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
