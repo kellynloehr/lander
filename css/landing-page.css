@@ -161,6 +161,9 @@ ul.navbar-right li{
 .navbar-default .navbar-nav>.active>a{
   background:none;
 }
+.btn-lg.active{
+  background-color:transparent;
+}
 .btn-lg{
   font-family: "NeuzeitGro W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 15px;
@@ -169,8 +172,6 @@ ul.navbar-right li{
   border: 2px solid #2B67DB;
   color: #2B67DB;
   background-color:transparent;
-
-
 }
 .btn-lg:hover{
   background:none;
