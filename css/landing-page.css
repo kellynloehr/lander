@@ -355,20 +355,21 @@ color: #2B67DB;
   top:600px;
   right:0px;
 
-
 }
 .side-mark{
   background: url(../img/large-o.png) no-repeat ;
-  width:503px;
+  width:450px;
   height:1354px;
   background-size: contain;
   position:inherit;
   z-index: -1000;
-  margin-top:-1300px;
-
+  margin-top:-1500px;
+margin-bottom:200px;
+}
+.linkedin img{
+  height:32px;
 
 }
-
 .img-responsive{
   max-width:90%;
 }
