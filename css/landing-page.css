@@ -161,9 +161,14 @@ ul.navbar-right li{
 .navbar-default .navbar-nav>.active>a{
   background:none;
 }
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active,
 .btn-lg.active,
-.btn-lg.focus{
+.open > .dropdown-toggle.btn-lg {
   background-color:transparent;
+color: #2B67DB;
+
 }
 .btn-lg{
   font-family: "NeuzeitGro W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
