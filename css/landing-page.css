@@ -161,7 +161,8 @@ ul.navbar-right li{
 .navbar-default .navbar-nav>.active>a{
   background:none;
 }
-.btn-lg.active{
+.btn-lg.active,
+.btn-lg.focus{
   background-color:transparent;
 }
 .btn-lg{
