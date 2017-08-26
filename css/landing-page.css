@@ -295,6 +295,7 @@ color: #2B67DB;
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
+
     }
 
     .intro-message > h1 {
@@ -470,6 +471,12 @@ color: #2B67DB;
     }
     .about{
       margin-left:-20px;
+    }
+    .intro-message{
+      width:100%;
+    }
+    .about-message{
+      width:100%;
     }
 }
 
