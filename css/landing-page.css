@@ -525,11 +525,14 @@ footer {
 
 }
 
-#mc_embed_signup #mce-success-response {
-    color: #FFF;
+  #mc_embed_signup div.response{
+    float:none;
+    width:100%;
     text-align: center;
-
+    color: #FFF;
+    margin: 10px 0 30px 0;
   }
+
 .form {
   display: block;
   width: 60%;
@@ -544,6 +547,8 @@ footer {
   letter-spacing: 1px;
 
 }
+
+
 footer img{
   margin:80px 0 30px;
   width:44px;
