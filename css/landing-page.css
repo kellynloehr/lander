@@ -69,7 +69,8 @@ h6 {
   display: none;
 }
 .list-inline img{
-  max-height: 60px;
+  max-height:60px;
+
 }
 .list-inline a img:hover{
   opacity: .5;
@@ -372,7 +373,7 @@ margin-bottom:200px;
 
 }
 .img-responsive{
-  max-width:80%;
+  max-width:90%;
 }
 .content-section-a {
     padding: 50px 0;
@@ -460,7 +461,7 @@ margin-bottom:200px;
     display: none;
     }
     .list-inline img{
-      margin:0px auto;
+      margin:60px auto;
     }
     .background-header, .background-header-light{
       font-size: 8em;
@@ -487,7 +488,7 @@ margin-bottom:200px;
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
    margin-top:-140px;
-   padding-bottom:100px;
+   padding-bottom:140px;
    padding-top:180px;
    position: relative;
    z-index: 100;
