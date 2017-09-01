@@ -157,9 +157,13 @@ hr.yellow{
   margin-top:0px;
 }
 
+ul.navbar-right{
+  min-width:300px;
+}
 ul.navbar-right li{
     padding-top:10px;
     background:none;
+
 }
 .navbar-default .navbar-nav>.active>a{
   background:none;
